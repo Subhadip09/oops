@@ -1,0 +1,62 @@
+import java.io.*;
+public class coffee{
+int E,C,L;
+int ch;
+int ch1;
+int t;
+Scanner scn = new Scanner(System.in);
+ public void input()throws IOException{
+System.out.println("1. Espressor ");
+ System.out.println("2. Cappuccino ");
+ 
+System.out.println("3. Latte ");
+System.out.println("Enter Choice);
+ch = scn.nextInt();
+}
+public void choice(){
+  System.out.println("Do you want some add on?");
+System.out.println("1. milk ");
+ System.out.println("2. cream ");
+ System.out.println("3. latte ");
+ch1 = scn = nextInt();
+
+if(ch == 1 && ch1 == 1 )
+{
+	System.out.println("60");
+}
+if(ch == 1 && ch1 == 2)
+{
+	System.out.println("75");
+}
+if(ch == 1 && ch1 == 3)
+{
+	System.out.println("100");
+}
+if(ch == 2 && ch1 == 1 )
+{
+	System.out.println("80");
+}
+if(ch == 2 && ch1 == 2 )
+{
+	System.out.println("90");
+}	
+if(ch == 2 && ch1 == 3 )
+{
+	System.out.println("125");
+}
+if(ch == 3 && ch1 == 1 )
+{
+	System.out.println("100");
+}
+if(ch == 3 && ch1 == 2 )
+{
+	System.out.println("125");
+}
+if(ch == 3 && ch1 == 3 )
+{
+	System.out.println("150");
+}
+	
+
+ 
+ 
